@@ -1,3 +1,7 @@
+#root.root {--bookmarks-sub-panel-height: p;}
+#root.root {--tabs-activated-shadow: 0 1px 4px -1px rgba(0,0,0,0.282), inset 0 0 0 1px rgba(255,255,244,0.031);}
+#root.root {--ctx-menu-opt-border-radius: calc(4px - 2px + 1px);}
+#root.root {--ctx-menu-border-radius: calc(4px + 1px);}
 # css-sidebery
 CSS backup Sidebery
 
@@ -6,17 +10,17 @@ CSS backup Sidebery
 #root.root {--link-color-active: #8d35e2;}
 #root.root {--status-active: #47cfff;}
 #root.root {--status-ok: #64df64;}
-#root.root {--d-fast: 0.16s;}
+#root.root {--d-fast: 0.26s;}
 
 #root.root {--scroll-progress-height: 18px;}
 #root.root {--ctx-menu-separator: #3a5876ff;}
 #root.root {--ctx-menu-font: 0.975rem sans-serif;}
-#root.root {--ctx-menu-opt-border-radius: calc(4px - 2px + 1px);}
+
 #root.root {--ctx-menu-opt-padding: 4px;}
 #root.root {--ctx-menu-text-opt-height: 26px;}
 #root.root {--history-item-padding-right: 5px;}
 #root.root {--history-item-border-radius: 4px;}
-#root.root {--tabs-activated-shadow: 0 19px 4px -1px rgba(0,0,0,0.282), inset 0 0 0 1px rgba(255,255,255,0.031);}
+
 #root.root {--tabs-activated-bg: #42414dff;}
 #root.root {--tabs-activated-fg: rgb(251,251,254);}
 #root.root {--tabs-pinned-height: 30px;}
