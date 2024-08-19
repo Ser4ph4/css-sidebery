@@ -1,6 +1,14 @@
-#root.root {--tabs-activated-shadow: 0 1px 4px -1px rgba(0,0,0,0.282), inset 0 0 0 1px rgb(165, 92, 251), inset 4px 0 0 0 rgb(54, 9, 59);}
+#root.root {--tabs-activated-shadow: 0 1px 1px -1px rgba(0,0,0,0.282), inset 0 0 0 1px rgb(165, 932, 251), inset 2px 0 0 0 rgb(54, 9, 59);}
+#root.root {--tabs-progress-bg: #8bdc56ff;}
+#root.root {--tabs-pinned-height: 30px;}
+#root.root {--tabs-pinned-width: 30px;}
+#root.root {--tabs-margin: 1px;}
+#root.root {--tabs-font: 0.9375rem sans-serif;}
+#root.root {--nav-btn-height: 30px;}
+#root.root {--nav-btn-margin: -1px;}
+#root.root {--nav-btn-len-margin: -1px;}
+#root.root {--nav-btn-border-radius: 5px;}
 #root.root {--tabs-border-radius: 5px;}
-#root.root {--tabs-activated-fg: rgb(232, 227, 233);}
 #root.root {--tabs-activated-bg: #2a2a41ff;}
 #root.root {--frame-bg: #42414d;}
 #root.root {--history-item-margin: 3px;}
@@ -26,20 +34,17 @@
 #root.root {--tabs-color-layer-opacity: 0.2;}
 #root.root {--tabs-activated-color-layer-opacity: 0.2;}
 #root.root {--nav-btn-active-shadow: inset 0 0 0 1px rgba(255,255,255,0.071), 0 1px 3px 0 rgba(0,0,0,0.212);}
-#root.root {--nav-btn-border-radius: 5px;}
-#root.root {--nav-btn-len-margin: 1px;}
 #root.root {--general-margin: 1px;}
 #root.root {--general-border-radius: 5px;}
 #root.root {--tabs-close-btn-margin: 2px;}
 #root.root {--nav-btn-accent: #aeceaaff;}
-#root.root {--tabs-activated-shadow: 0 1px 4px -1px rgba(0,0,0,0.282), inset 0 0 0 1px rgba(255,255,244,0.031);}
+
 .Tab[data-active="true"] .title {
   font-weight: bold;
   text-shadow: 1px 2px 0px #0b0a0a;
-  font-size: 16px;}
- .PinnedTab[data-updated="true"] .fav>img {
-        mask: radial-gradient(circle at calc(100% - 2px) calc(100% - 2px), rgba(0, 0, 0, 0.141), rgba(0, 0, 0, 0.141) 4px, #000 5px, #000);
-    }
+  font-size: 15px;
+  text-align:left;
+}
 .Tab .title {
 	background: linear-gradient(90deg, var(--tabs-normal-fg) 60%, #f1f1f100 95%);
 	background-clip: text;
